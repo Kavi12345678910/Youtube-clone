@@ -1,0 +1,9 @@
+body{
+  padding-top: 80px;
+  padding-left: 95px;
+}
+@media(max-width:600px;){
+  .head-div{
+    grid-template-columns: 1fr 1fr;
+  }
+}

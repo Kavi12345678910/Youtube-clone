@@ -1,0 +1,184 @@
+.header{
+  background-color: white;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+  border-bottom: solid rgb(213, 207, 207) 2px;
+}
+.first-div{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 250px;
+flex-shrink: 0;
+}
+.second-div{
+display: flex;
+align-items: center;
+width: 500px;
+align-items: center;
+justify-content: center;
+
+}
+.third-div{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 280px;
+justify-content: space-around;
+flex-shrink: 0;
+
+}
+.threeline-div{
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.threeline{
+  width: 45px;
+
+}
+.threeline:hover{
+  cursor: pointer;
+
+}
+.threeline-div:hover{
+background-color: grey;
+  cursor: pointer;
+
+}
+.y-logo{
+  width: 100px;
+}
+.bell-icon-div,
+.widget-icon-div,
+.profile-icon-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bell-icon{
+width: 40px;
+
+}
+.bell-icon-div,
+.profile-icon-div,
+.widget-icon-div{
+  width: 60px;
+  height: 60px;
+
+}
+.bell-icon-div:hover,
+.widget-icon-div:hover,
+.profile-icon-div:hover{
+  background-color: grey;
+
+}
+
+.bell-icon:hover{
+  cursor: pointer;
+}
+.widget-icon{
+width: 40px;
+
+
+
+}
+.widget-icon:hover{
+  cursor: pointer;
+}
+
+.profile-icon{
+width: 40px;
+
+
+
+}
+.profile-icon:hover{
+  cursor: pointer;
+}
+.search-icon{
+  height: 20px;
+  width: 20px;
+}
+.mic-icon{
+    height: 30px;
+  width: 30px;
+}
+.input-box{
+  font-size: 16px;
+  flex: 1;
+  height: 40px;
+  border-radius: 3px;
+  border: solid rgb(176, 173, 173) 1px;
+  width: 20px;
+  box-shadow: inset 1px 1px 3px rgba(18, 18, 18, 0.1),
+              inset -1px -1px 3px rgba(23, 23, 23, 0.1);
+}
+.search-button{
+  height: 43px;
+  width: 45px;
+  margin-left: -10px;
+  border-radius: 2px;
+  border: solid grey 1px;
+  position: relative;
+}
+.mic-button{
+ height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-left: 20px;
+  position: relative;
+}
+.mic-button:hover{
+    box-shadow: 0px 2px 3px 3px rgb(68, 67, 67);
+
+}
+.input-box::placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  color: grey;
+  font-weight: 500;
+}
+.search-button .tooltip{
+position: absolute;
+background-color: rgb(142, 142, 142);
+bottom: -35px;
+color:white;
+padding: 5px;
+border-radius: 2px;
+left: -3px;
+opacity: 0;
+
+}
+.search-button:hover .tooltip{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.mic-button .tooltip{
+  background-color: rgb(175, 173, 173);
+  border-radius: 1px;
+  padding: 3px;
+  position: absolute;
+  bottom: -30px;
+  left: -15px;
+  opacity: 0;
+  
+}
+.mic-button:hover .tooltip{
+  opacity: 1;
+  cursor: pointer;
+}
